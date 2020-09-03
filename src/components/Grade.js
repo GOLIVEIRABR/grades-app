@@ -32,10 +32,8 @@ const Grade = (props) => {
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setCurrentGrade({ ...currentGrade, [name]: value });
-    console.log(currentGrade);
   };
 
- 
 
   const updateGrade = () => {
     GradeDataService.update(currentGrade._id, currentGrade)
