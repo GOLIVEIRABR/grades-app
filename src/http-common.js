@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //Define a URL base da origem para consumo do servico
 export default axios.create({
-  baseURL: 'https://my-grades-api.herokuapp.com/',
+  baseURL: 'http://localhost:3005',
   headers: {
     'Content-type': 'application/json',
   },
