@@ -35,7 +35,6 @@ const GradeList = () => {
 
   const setActiveGrade = (grade, index) => {
     setCurrentGrade(grade);
-    console.log(grade);
     setCurrentIndex(index);
   };
 
