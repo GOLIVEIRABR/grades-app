@@ -21,7 +21,6 @@ const GradeList = () => {
     GradeDataService.getAll()
       .then((response) => {
         setGrade(response.data);
-        console.log(response.data);
       })
       .catch((e) => {
         console.log(e);
