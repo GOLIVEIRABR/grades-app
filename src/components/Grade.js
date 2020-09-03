@@ -23,6 +23,8 @@ const Grade = (props) => {
       });
   };
 
+  console.log(props);
+
   useEffect(() => {
     getGrade(props.match.params.id);
   }, [props.match.params.id]);
